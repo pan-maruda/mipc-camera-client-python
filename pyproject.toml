@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mipc-camera-client"
-version = "0.1.1.dev1"
+version = "0.1.1"
 description = "command-line interface and client library for MIPC IP cameras"
 authors = ["Pan Maruda <panmaruda@protonmail.com>"]
 readme = "README.md"
