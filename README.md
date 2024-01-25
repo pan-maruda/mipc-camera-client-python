@@ -1,5 +1,7 @@
 # mipc_camera_client
 
+[![PyPI version](https://badge.fury.io/py/mipc-camera-client.svg)](https://badge.fury.io/py/mipc-camera-client)
+
 Simple client for MIPC-based webcam. 
 I bought a cheapo used WiFi camera on eBay, turns out the local web UI accessible over LAN is broken,
 and using the OEM's app proxies all the video through random IP addresses which I'm not cool with.
