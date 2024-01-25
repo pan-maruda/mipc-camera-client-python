@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "mipc-camera-client"
+version = "0.1.0"
+description = "command-line interface and client library for MIPC IP cameras"
+authors = ["Pan Maruda <panmaruda@protonmail.com>"]
+readme = "README.md"
+packages = [{ include = "mipc_camera_client" }]
+license = "BSD-3-Clause"
+homepage = "https://github.com/pan-maruda/mipc-camera-client-python"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Programming Language :: Python :: 3.9",
+  "Topic :: Multimedia :: Video",
+  "Topic :: Utilities",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Natural Language :: English",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop"
+]
+keywords = ["webcam", "mipc", "rtsp", "ip camera", "cli", "command line interface", "ptz"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+json5 = "^0.9.14"
+pycryptodome = "^3.18.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.1"
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+mipc_camera_client = 'mipc_camera_client.cli:main'
