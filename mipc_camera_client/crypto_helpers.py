@@ -7,7 +7,7 @@ do NOT take this as an example, this is not secure, but it's necessary to talk t
 import hashlib
 import logging
 import random
-from typing import Any
+from typing import Any, Union
 from Crypto.Cipher import DES
 
 # hardcoded in the js client
@@ -63,7 +63,7 @@ def _magic_e(a):
     )
 
 
-def _encode_magic(string_or_int: str | int, left_pad_to_lenth: int = 0) -> str:
+def _encode_magic(string_or_int: Union[str, int], left_pad_to_lenth: int = 0) -> str:
     """who knows. reversed from js :)"""
     f = ""
     if isinstance(string_or_int, str):
