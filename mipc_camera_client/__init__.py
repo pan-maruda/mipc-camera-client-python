@@ -24,16 +24,6 @@ __all__ = ["MipcCameraClient"]
 class MipcCameraClient:
     """HTTP Client for MIPC-compatible cameras."""
 
-    tid: int
-    sid: str
-    lid: str
-
-    seq: int
-
-    pub_key: int
-    priv_key: int
-    shared_secret: str = ""
-
     _sn: Union[str, None]
 
     def __init__(self, host: str) -> None:
@@ -44,6 +34,7 @@ class MipcCameraClient:
         self._sn = None
         self.host = host
         self.init_keys()
+        self._r: requests.Session = requests.Session()
 
     def __repr__(self) -> str:
         return f"MipcCameraClient(host={repr(self.host)})"
@@ -114,7 +105,7 @@ class MipcCameraClient:
         LOGGER.debug(
             f"{self.host=} {msg_type=} data={pprint.pformat(data, compact=True)}"
         )
-        resp = requests.request(
+        resp = self._r.request(
             method="GET",
             url=f"http://{self.host}/ccm/{msg_type}.{response_type}",
             params=query_params,
