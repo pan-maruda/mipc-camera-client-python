@@ -32,6 +32,7 @@ class MipcCameraClient:
         self.lid = ""
         self.seq = 0
         self._sn = None
+        self.shared_secret = None
         self.host = host
         self.init_keys()
         self._r: requests.Session = requests.Session()
