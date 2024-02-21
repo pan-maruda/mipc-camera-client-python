@@ -21,7 +21,7 @@ classifiers = [
 keywords = ["webcam", "mipc", "rtsp", "ip camera", "cli", "command line interface", "ptz"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 requests = "^2.31.0"
 json5 = "^0.9.14"
 pycryptodome = "^3.18.0"
