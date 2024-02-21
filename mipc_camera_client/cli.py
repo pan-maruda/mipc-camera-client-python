@@ -11,7 +11,7 @@ import inspect
 LOGGER = logging.getLogger("mipc_camera_client")
 
 
-def stream_url(c: MipcCameraClient) -> str:
+def print_stream_url(c: MipcCameraClient) -> None:
     LOGGER.info("Getting RTMP stream URL")
     print(c.get_rtmp_stream())
 
@@ -91,7 +91,7 @@ def parse_args() -> argparse.Namespace:
         "stream",
         help="get RTMP stream URL",
     )
-    stream_parser.set_defaults(handler=stream_url)
+    stream_parser.set_defaults(handler=print_stream_url)
 
     ptz_parser = subparsers.add_parser("ptz", help="control pan/tilt/zoom")
 
