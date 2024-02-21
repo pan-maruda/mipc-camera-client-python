@@ -143,6 +143,9 @@ def main():
     args = parse_args()
     if args.quiet:
         logging.getLogger().setLevel(logging.CRITICAL)
+    if "CAMERA_PASSWORD" not in os.environ:
+        print("Error: environment variable CAMERA_PASSWORD not set", file=sys.stderr)
+        sys.exit(2)
     LOGGER.info(f"Logging into {args.host} as {args.user}")
     c = MipcCameraClient(args.host)
     c.login(args.user, os.environ["CAMERA_PASSWORD"])
