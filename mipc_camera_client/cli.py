@@ -11,7 +11,7 @@ import inspect
 LOGGER = logging.getLogger("mipc_camera_client")
 
 
-def stream_url(c: MipcCameraClient) -> str:
+def print_stream_url(c: MipcCameraClient) -> None:
     LOGGER.info("Getting RTMP stream URL")
     print(c.get_rtmp_stream())
 
@@ -46,6 +46,8 @@ def snapshot(c: MipcCameraClient, filename: Optional[str]) -> None:
     if out_path:
         out_path.write_bytes(jpeg)
     LOGGER.info(f"saved {len(jpeg)} bytes to {out_path or 'stdout'}")
+    if out_path:
+        print(out_path)
 
 
 def ptz_handler(
@@ -71,6 +73,12 @@ def parse_args() -> argparse.Namespace:
         default=os.getenv("CAMERA_USER"),
         help="Camera username (from the web interface), uses CAMERA_USER env var if not supplied. Set CAMERA_PASSWORD for password.",
     )
+    parser.add_argument(
+        "-q",
+        "--quiet",
+        action="store_true",
+        default=False,
+        help="Silence all output except for the snapshot filename or stream URL")
     subparsers = parser.add_subparsers(
         title="commands",
         description="Available commands",
@@ -91,7 +99,7 @@ def parse_args() -> argparse.Namespace:
         "stream",
         help="get RTMP stream URL",
     )
-    stream_parser.set_defaults(handler=stream_url)
+    stream_parser.set_defaults(handler=print_stream_url)
 
     ptz_parser = subparsers.add_parser("ptz", help="control pan/tilt/zoom")
 
@@ -133,6 +141,11 @@ def main():
         level="INFO",
     )
     args = parse_args()
+    if args.quiet:
+        logging.getLogger().setLevel(logging.CRITICAL)
+    if "CAMERA_PASSWORD" not in os.environ:
+        print("Error: environment variable CAMERA_PASSWORD not set", file=sys.stderr)
+        sys.exit(2)
     LOGGER.info(f"Logging into {args.host} as {args.user}")
     c = MipcCameraClient(args.host)
     c.login(args.user, os.environ["CAMERA_PASSWORD"])
