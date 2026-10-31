@@ -1,6 +1,6 @@
 import pytest
 
-from mipc_camera_client.crypto_helpers import format_nid, str_2_b64, _encode_magic
+from mipc_camera_client.crypto_helpers import _encode_magic, format_nid, str_2_b64
 
 b64_examples = [
     ("abcde", "YWJjZGU"),
@@ -112,7 +112,7 @@ encode_examples = [
     (2, "\x02"),
     ("", ""),
     (492, "\x01ì"),
-    ("0x1e", "\x1E"),
+    ("0x1e", "\x1e"),
     ("0x56", "V"),
 ]
 

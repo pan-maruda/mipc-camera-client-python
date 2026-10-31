@@ -4,10 +4,12 @@
 most of this is re-implementing stuff I think the JS code on web UI does:
 do NOT take this as an example, this is not secure, but it's necessary to talk to the cameras :/
 """
+
 import hashlib
 import logging
-import random
-from typing import Any, Union
+import secrets
+from typing import Union
+
 from Crypto.Cipher import DES
 
 # hardcoded in the js client
@@ -19,7 +21,7 @@ ALT_BASE64_CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567
 
 
 def dh_gen_private() -> int:
-    return random.randint(0, 2**63)
+    return secrets.randbelow(2**63 + 1)
 
 
 def dh_gen_public(private) -> int:

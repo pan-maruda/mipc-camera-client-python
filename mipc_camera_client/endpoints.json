@@ -1,0 +1,4916 @@
+{
+  "cacs_bind_req": {
+    "scope": "account",
+    "fields": [
+      "email",
+      "lang",
+      "nid",
+      "p",
+      "pass",
+      "user"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 361068,
+        "fields": [
+          "nid",
+          "email",
+          "user",
+          "pass",
+          "lang",
+          "p"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 360593,
+        "fields": [
+          "nid",
+          "email",
+          "user",
+          "pass",
+          "lang",
+          "p"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "nid": {
+          "input": true
+        },
+        "email": {
+          "input": true
+        },
+        "user": {
+          "input": true
+        },
+        "pass": {
+          "input": true
+        },
+        "lang": {
+          "input": true
+        },
+        "p": [
+          {
+            "n": {
+              "literal": "uctx"
+            },
+            "v": {
+              "input": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cacs_check_nid_req": {
+    "scope": "authentication",
+    "fields": [
+      "nid"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 847428,
+        "fields": [
+          "nid"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "nid": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "cacs_dh_req": {
+    "scope": "authentication",
+    "fields": [
+      "bnum_prime",
+      "key_a2b",
+      "root_num",
+      "tid"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 358537,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 361286,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 362562,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 811458,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 812164,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 813825,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 814874,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "526a2bc64138ddfbc2dedc8f313bc54ef963bb85d7e3c094ed88765ce25f322c",
+        "offset": 358612,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "526a2bc64138ddfbc2dedc8f313bc54ef963bb85d7e3c094ed88765ce25f322c",
+        "offset": 361362,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "526a2bc64138ddfbc2dedc8f313bc54ef963bb85d7e3c094ed88765ce25f322c",
+        "offset": 362637,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 360812,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 786233,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 787894,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 788943,
+        "fields": [
+          "bnum_prime",
+          "root_num",
+          "key_a2b",
+          "tid"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "bnum_prime": {
+          "input": true
+        },
+        "root_num": {
+          "input": true
+        },
+        "key_a2b": {
+          "input": true
+        },
+        "tid": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "cacs_login_req": {
+    "scope": "authentication",
+    "fields": [
+      "lid",
+      "nid",
+      "param",
+      "pass",
+      "session_req",
+      "user"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 810079,
+        "fields": [
+          "lid",
+          "nid",
+          "user",
+          "pass",
+          "session_req",
+          "param"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 812508,
+        "fields": [
+          "lid",
+          "nid",
+          "user",
+          "pass",
+          "session_req",
+          "param"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 815121,
+        "fields": [
+          "lid",
+          "user",
+          "pass",
+          "session_req",
+          "param"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 784148,
+        "fields": [
+          "lid",
+          "nid",
+          "user",
+          "pass",
+          "session_req",
+          "param"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 786577,
+        "fields": [
+          "lid",
+          "nid",
+          "user",
+          "pass",
+          "session_req",
+          "param"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 789190,
+        "fields": [
+          "lid",
+          "user",
+          "pass",
+          "session_req",
+          "param"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "lid": {
+          "input": true
+        },
+        "nid": {
+          "input": true
+        },
+        "user": {
+          "input": true
+        },
+        "pass": {
+          "input": true
+        },
+        "session_req": {
+          "literal": 1
+        },
+        "param": [
+          {
+            "name": {
+              "literal": "spv"
+            },
+            "value": {
+              "literal": "v1"
+            }
+          }
+        ]
+      },
+      {
+        "lid": {
+          "input": true
+        },
+        "user": {
+          "input": true
+        },
+        "pass": {
+          "input": true
+        },
+        "session_req": {
+          "literal": 1
+        },
+        "param": [
+          {
+            "name": {
+              "literal": "spv"
+            },
+            "value": {
+              "literal": "v1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cacs_logout_req": {
+    "scope": "authentication",
+    "fields": [
+      "nid"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 360786,
+        "fields": [
+          "nid"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 815399,
+        "fields": [
+          "nid"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 360042,
+        "fields": [
+          "nid"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "nid": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "cacs_passwd_req": {
+    "scope": "authentication",
+    "fields": [
+      "guest",
+      "new_pass",
+      "nid",
+      "old_pass"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 360899,
+        "fields": [
+          "nid",
+          "old_pass",
+          "new_pass",
+          "guest"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 815966,
+        "fields": [
+          "nid",
+          "old_pass",
+          "new_pass",
+          "guest"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 360154,
+        "fields": [
+          "nid",
+          "old_pass",
+          "new_pass",
+          "guest"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "nid": {
+          "input": true
+        },
+        "old_pass": {
+          "input": true
+        },
+        "new_pass": {
+          "input": true
+        },
+        "guest": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "cacs_query_req": {
+    "scope": "account",
+    "fields": [
+      "lid",
+      "nid",
+      "p",
+      "user"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 362749,
+        "fields": [
+          "lid",
+          "nid",
+          "user",
+          "p"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 362867,
+        "fields": [
+          "nid",
+          "user",
+          "p"
+        ]
+      },
+      {
+        "source_sha256": "526a2bc64138ddfbc2dedc8f313bc54ef963bb85d7e3c094ed88765ce25f322c",
+        "offset": 362824,
+        "fields": [
+          "lid",
+          "nid",
+          "user",
+          "p"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "lid": {
+          "input": true
+        },
+        "nid": {
+          "input": true
+        },
+        "user": {
+          "input": true
+        },
+        "p": [
+          {
+            "n": {
+              "literal": "uctx"
+            },
+            "v": {
+              "input": true
+            }
+          }
+        ]
+      },
+      {
+        "nid": {
+          "input": true
+        },
+        "user": {
+          "input": true
+        },
+        "p": [
+          {
+            "n": {
+              "literal": "uctx"
+            },
+            "v": {
+              "input": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cacs_recovery_req": {
+    "scope": "account",
+    "fields": [
+      "email",
+      "lang",
+      "lid",
+      "nid",
+      "p",
+      "user"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 361474,
+        "fields": [
+          "lid",
+          "nid",
+          "email",
+          "user",
+          "lang",
+          "p"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 361275,
+        "fields": [
+          "lid",
+          "nid",
+          "email",
+          "user",
+          "lang",
+          "p"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "lid": {
+          "input": true
+        },
+        "nid": {
+          "input": true
+        },
+        "email": {
+          "input": true
+        },
+        "user": {
+          "input": true
+        },
+        "lang": {
+          "input": true
+        },
+        "p": [
+          {
+            "n": {
+              "literal": "uctx"
+            },
+            "v": {
+              "input": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cacs_reg_req": {
+    "scope": "account",
+    "fields": [
+      "lid",
+      "nid",
+      "pass",
+      "session_req",
+      "user"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 360684,
+        "fields": []
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 814155,
+        "fields": [
+          "lid",
+          "nid",
+          "user",
+          "pass",
+          "session_req"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 814455,
+        "fields": [
+          "lid",
+          "user",
+          "pass"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 788224,
+        "fields": [
+          "lid",
+          "nid",
+          "user",
+          "pass",
+          "session_req"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 788524,
+        "fields": [
+          "lid",
+          "user",
+          "pass"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "input": true
+      },
+      {
+        "lid": {
+          "input": true
+        },
+        "nid": {
+          "input": true
+        },
+        "user": {
+          "input": true
+        },
+        "pass": {
+          "input": true
+        },
+        "session_req": {
+          "literal": 1
+        }
+      },
+      {
+        "lid": {
+          "input": true
+        },
+        "user": {
+          "input": true
+        },
+        "pass": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_active": {
+    "scope": "device",
+    "fields": [
+      "ActivationCode",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 374627,
+        "fields": [
+          "sess",
+          "ActivationCode"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 856193,
+        "fields": [
+          "ActivationCode"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 373426,
+        "fields": [
+          "sess",
+          "ActivationCode"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "ActivationCode": {
+          "input": true
+        }
+      },
+      {
+        "ActivationCode": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_alert_action_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 370929,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 851176,
+        "fields": []
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 369727,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      },
+      {}
+    ]
+  },
+  "ccm_alert_action_set": {
+    "scope": "device",
+    "fields": [
+      "actions",
+      "enable",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 371129,
+        "fields": [
+          "sess",
+          "enable",
+          "actions"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 369927,
+        "fields": [
+          "sess",
+          "enable",
+          "actions"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "enable": {
+          "input": true
+        },
+        "actions": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_alert_dev_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 370395,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 850826,
+        "fields": []
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 369193,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      },
+      {}
+    ]
+  },
+  "ccm_alert_dev_set": {
+    "scope": "device",
+    "fields": [
+      "conf",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 370684,
+        "fields": [
+          "sess",
+          "conf"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 850644,
+        "fields": [
+          "conf"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 369482,
+        "fields": [
+          "sess",
+          "conf"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "conf": {
+          "io_in_mode": {
+            "input": true
+          },
+          "io_out_mode": {
+            "input": true
+          },
+          "motion_level": {
+            "input": true
+          },
+          "motion_level_night": {
+            "input": true
+          }
+        }
+      },
+      {
+        "conf": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_audio_ctrl": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "cmd"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "ac130e6f964b814c443911d072b9bf34fcc6d90350fa19b1730ca7801d0825cb",
+        "offset": 5832636,
+        "fields": [
+          "sess",
+          "cmd"
+        ],
+        "apk_sha256": "20c66d333df411629bb2ed7ce572ddca80bb27bef0dff96f65c29d0b4222d8f8",
+        "class": "com.mining.cloud.mcld_agent",
+        "method": "voice_alarm"
+      }
+    ],
+    "validation": "android_call_site_only",
+    "request_shapes": []
+  },
+  "ccm_box_conf_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 376317,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 375115,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_box_get": {
+    "scope": "device",
+    "fields": [
+      "end_time",
+      "flag",
+      "sess",
+      "sn",
+      "start_time"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 375882,
+        "fields": [
+          "sess",
+          "sn",
+          "flag",
+          "start_time",
+          "end_time"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 374680,
+        "fields": [
+          "sess",
+          "sn",
+          "flag",
+          "start_time",
+          "end_time"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "sn": {
+          "input": true
+        },
+        "flag": {
+          "input": true
+        },
+        "start_time": {
+          "input": true
+        },
+        "end_time": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_box_login": {
+    "scope": "device",
+    "fields": [
+      "enable",
+      "password",
+      "sess",
+      "username"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 376498,
+        "fields": [
+          "sess",
+          "enable",
+          "username",
+          "password"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 375296,
+        "fields": [
+          "sess",
+          "enable",
+          "username",
+          "password"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "enable": {
+          "input": true
+        },
+        "username": {
+          "input": true
+        },
+        "password": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_box_set": {
+    "scope": "device",
+    "fields": [
+      "cmd",
+      "end_time",
+      "sess",
+      "sn",
+      "start_time"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 377053,
+        "fields": [
+          "sess",
+          "sn",
+          "cmd",
+          "start_time",
+          "end_time"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 375839,
+        "fields": [
+          "sess",
+          "sn",
+          "cmd",
+          "start_time",
+          "end_time"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "sn": {
+          "input": true
+        },
+        "cmd": {
+          "input": true
+        },
+        "start_time": {
+          "input": true
+        },
+        "end_time": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_crop_zoom_get": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "token"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "ac130e6f964b814c443911d072b9bf34fcc6d90350fa19b1730ca7801d0825cb",
+        "offset": 5810500,
+        "fields": [
+          "sess",
+          "token"
+        ],
+        "apk_sha256": "20c66d333df411629bb2ed7ce572ddca80bb27bef0dff96f65c29d0b4222d8f8",
+        "class": "com.mining.cloud.mcld_agent",
+        "method": "getCropZoomInfo"
+      }
+    ],
+    "validation": "android_call_site_only",
+    "request_shapes": []
+  },
+  "ccm_crop_zoom_set": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "token",
+      "smooth_crop_zoom",
+      "crop_zoom_conf"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "ac130e6f964b814c443911d072b9bf34fcc6d90350fa19b1730ca7801d0825cb",
+        "offset": 5825408,
+        "fields": [
+          "sess",
+          "token",
+          "smooth_crop_zoom",
+          "crop_zoom_conf"
+        ],
+        "apk_sha256": "20c66d333df411629bb2ed7ce572ddca80bb27bef0dff96f65c29d0b4222d8f8",
+        "class": "com.mining.cloud.mcld_agent",
+        "method": "setCropZoomInfo"
+      }
+    ],
+    "validation": "android_call_site_only",
+    "request_shapes": []
+  },
+  "ccm_curise_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 374960,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 373758,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_curise_set": {
+    "scope": "device",
+    "fields": [
+      "index",
+      "sess",
+      "type"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 375165,
+        "fields": [
+          "sess",
+          "type",
+          "index"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 373964,
+        "fields": [
+          "sess",
+          "type",
+          "index"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "type": {
+          "input": true
+        },
+        "index": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_date_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 372171,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 852277,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 370969,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 826346,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_date_set": {
+    "scope": "device",
+    "fields": [
+      "daylight_savings",
+      "sess",
+      "timezone",
+      "type",
+      "utc_date"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 372492,
+        "fields": [
+          "sess",
+          "type",
+          "timezone",
+          "utc_date"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 853495,
+        "fields": [
+          "sess",
+          "type",
+          "daylight_savings",
+          "timezone",
+          "utc_date"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 371290,
+        "fields": [
+          "sess",
+          "type",
+          "timezone",
+          "utc_date"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "type": {
+          "input": true
+        },
+        "timezone": {
+          "input": true
+        },
+        "utc_date": {
+          "time": {
+            "hour": {
+              "input": true
+            },
+            "min": {
+              "input": true
+            },
+            "sec": {
+              "input": true
+            }
+          },
+          "date": {
+            "year": {
+              "input": true
+            },
+            "mon": {
+              "input": true
+            },
+            "day": {
+              "input": true
+            }
+          }
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "type": {
+          "input": true
+        },
+        "daylight_savings": {
+          "literal": 0
+        },
+        "timezone": {
+          "input": true
+        },
+        "utc_date": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_dev_add": {
+    "scope": "device",
+    "fields": [
+      "pwd",
+      "sess",
+      "sn"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 366524,
+        "fields": [
+          "sess",
+          "sn",
+          "pwd"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 826313,
+        "fields": [
+          "sn",
+          "pwd"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 841484,
+        "fields": [
+          "sn",
+          "pwd"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 365541,
+        "fields": [
+          "sess",
+          "sn",
+          "pwd"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          }
+        },
+        "sn": {
+          "input": true
+        },
+        "pwd": {
+          "input": true
+        }
+      },
+      {
+        "sn": {
+          "input": true
+        },
+        "pwd": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_dev_del": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "sn"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 366394,
+        "fields": [
+          "sess",
+          "sn"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 826572,
+        "fields": [
+          "sn"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 365411,
+        "fields": [
+          "sess",
+          "sn"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          }
+        },
+        "sn": {
+          "input": true
+        }
+      },
+      {
+        "sn": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_dev_info_get": {
+    "scope": "device",
+    "fields": [
+      "select",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 367680,
+        "fields": [
+          "sess",
+          "select"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 840376,
+        "fields": []
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 843569,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 366679,
+        "fields": [
+          "sess",
+          "select"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "select": {
+          "input": true
+        }
+      },
+      {},
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_devs_get": {
+    "scope": "device",
+    "fields": [
+      "counts",
+      "sess",
+      "start"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 364690,
+        "fields": [
+          "sess",
+          "start",
+          "counts"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 819007,
+        "fields": [
+          "sess",
+          "start",
+          "counts"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 363706,
+        "fields": [
+          "sess",
+          "start",
+          "counts"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          }
+        },
+        "start": {
+          "literal": 0
+        },
+        "counts": {
+          "literal": 128
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "start": {
+          "literal": 0
+        },
+        "counts": {
+          "literal": 128
+        }
+      }
+    ]
+  },
+  "ccm_disk_ctl": {
+    "scope": "device",
+    "fields": [
+      "conf",
+      "sess",
+      "token",
+      "type"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 370076,
+        "fields": [
+          "sess",
+          "token",
+          "type"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 370199,
+        "fields": [
+          "sess",
+          "token",
+          "type",
+          "conf"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 850251,
+        "fields": [
+          "token",
+          "conf"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 850402,
+        "fields": [
+          "token",
+          "type"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 368875,
+        "fields": [
+          "sess",
+          "token",
+          "type"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 368997,
+        "fields": [
+          "sess",
+          "token",
+          "type",
+          "conf"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "token": {
+          "literal": "sd"
+        },
+        "type": {
+          "input": true
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "token": {
+          "literal": "sd"
+        },
+        "type": {
+          "input": true
+        },
+        "conf": {
+          "enable": {
+            "input": true
+          }
+        }
+      },
+      {
+        "token": {
+          "literal": "sd"
+        },
+        "conf": {
+          "input": true
+        }
+      },
+      {
+        "token": {
+          "literal": "sd"
+        },
+        "type": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_disk_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 369780,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 849428,
+        "fields": []
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 368578,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      },
+      {}
+    ]
+  },
+  "ccm_exdev_add": {
+    "scope": "device",
+    "fields": [
+      "id",
+      "interval",
+      "model",
+      "sess",
+      "timeout"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 378413,
+        "fields": [
+          "sess",
+          "id",
+          "model",
+          "timeout",
+          "interval"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "id": {
+          "input": true
+        },
+        "model": {
+          "input": true
+        },
+        "timeout": {
+          "input": true
+        },
+        "interval": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_exdev_del": {
+    "scope": "device",
+    "fields": [
+      "id",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 363655,
+        "fields": [
+          "sess",
+          "id"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "id": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_exdev_discover": {
+    "scope": "device",
+    "fields": [
+      "flag",
+      "interval",
+      "sess",
+      "timeout"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 378219,
+        "fields": [
+          "sess",
+          "flag",
+          "timeout",
+          "interval"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "flag": {
+          "input": true
+        },
+        "timeout": {
+          "input": true
+        },
+        "interval": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_exdev_get": {
+    "scope": "device",
+    "fields": [
+      "counts",
+      "flag",
+      "sess",
+      "start"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 378623,
+        "fields": [
+          "sess",
+          "flag",
+          "start",
+          "counts"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "flag": {
+          "input": true
+        },
+        "start": {
+          "input": true
+        },
+        "counts": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_exsw_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "ac130e6f964b814c443911d072b9bf34fcc6d90350fa19b1730ca7801d0825cb",
+        "offset": 5809560,
+        "fields": [
+          "sess"
+        ],
+        "apk_sha256": "20c66d333df411629bb2ed7ce572ddca80bb27bef0dff96f65c29d0b4222d8f8",
+        "class": "com.mining.cloud.mcld_agent",
+        "method": "exsw_get"
+      }
+    ],
+    "validation": "android_call_site_only",
+    "request_shapes": []
+  },
+  "ccm_exsw_set": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "enable"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "ac130e6f964b814c443911d072b9bf34fcc6d90350fa19b1730ca7801d0825cb",
+        "offset": 5809700,
+        "fields": [
+          "sess",
+          "enable"
+        ],
+        "apk_sha256": "20c66d333df411629bb2ed7ce572ddca80bb27bef0dff96f65c29d0b4222d8f8",
+        "class": "com.mining.cloud.mcld_agent",
+        "method": "exsw_set"
+      }
+    ],
+    "validation": "android_call_site_only",
+    "request_shapes": []
+  },
+  "ccm_hardware_test": {
+    "scope": "device",
+    "fields": [
+      "exdev",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 379263,
+        "fields": [
+          "sess",
+          "exdev"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "exdev": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_hardware_test_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 379385,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_img_get": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "token"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 366716,
+        "fields": [
+          "sess",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 365732,
+        "fields": [
+          "sess",
+          "token"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "token": {
+          "literal": "vs0"
+        }
+      }
+    ]
+  },
+  "ccm_img_set": {
+    "scope": "device",
+    "fields": [
+      "conf",
+      "reset",
+      "sess",
+      "token"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 367216,
+        "fields": [
+          "sess",
+          "token",
+          "conf"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 828936,
+        "fields": [
+          "token",
+          "conf"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 366232,
+        "fields": [
+          "sess",
+          "token",
+          "conf",
+          "reset"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "token": {
+          "literal": "vs0"
+        },
+        "conf": {
+          "brightness": {
+            "input": true
+          },
+          "contrast": {
+            "input": true
+          },
+          "color_saturation": {
+            "input": true
+          },
+          "sharpness": {
+            "input": true
+          },
+          "mode": {
+            "input": true
+          }
+        }
+      },
+      {
+        "token": {
+          "input": true
+        },
+        "conf": {
+          "input": true
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "token": {
+          "literal": "vs0"
+        },
+        "conf": {
+          "brightness": {
+            "input": true
+          },
+          "contrast": {
+            "input": true
+          },
+          "color_saturation": {
+            "input": true
+          },
+          "sharpness": {
+            "input": true
+          },
+          "mode": {
+            "input": true
+          }
+        },
+        "reset": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_info_get": {
+    "scope": "device",
+    "fields": [],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 374764,
+        "fields": []
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {}
+    ]
+  },
+  "ccm_ipcs_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 376678,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 375477,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_mic_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 373783,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 857263,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 372581,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_mic_set": {
+    "scope": "device",
+    "fields": [
+      "conf",
+      "force_persistence",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 374239,
+        "fields": [
+          "sess",
+          "conf",
+          "force_persistence"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 858516,
+        "fields": [
+          "sess",
+          "conf",
+          "force_persistence"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 373037,
+        "fields": [
+          "sess",
+          "conf",
+          "force_persistence"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "conf": {
+          "entity": {
+            "input": true
+          },
+          "token": {
+            "input": true
+          },
+          "silent": {
+            "input": true
+          },
+          "level": {
+            "input": true
+          }
+        },
+        "force_persistence": {
+          "literal": 1
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "conf": {
+          "input": true
+        },
+        "force_persistence": {
+          "literal": 1
+        }
+      }
+    ]
+  },
+  "ccm_mics_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 856938,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_misc_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 366938,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 859463,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 365955,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_misc_set": {
+    "scope": "device",
+    "fields": [
+      "info",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 367428,
+        "fields": [
+          "sess",
+          "info"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 859044,
+        "fields": [
+          "sess",
+          "info"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 366459,
+        "fields": [
+          "sess",
+          "info"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "info": {
+          "flip": {
+            "input": true
+          },
+          "power_freq": {
+            "input": true
+          }
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "info": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_motion_mask_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 371283,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 370081,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_motion_mask_set": {
+    "scope": "device",
+    "fields": [
+      "conf",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 371430,
+        "fields": [
+          "sess",
+          "conf"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 370228,
+        "fields": [
+          "sess",
+          "conf"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "conf": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_msg_filter_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 375305,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 374103,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_msg_filter_set": {
+    "scope": "device",
+    "fields": [
+      "gen_filter",
+      "pub_filter",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 375697,
+        "fields": [
+          "sess",
+          "gen_filter",
+          "pub_filter"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 374496,
+        "fields": [
+          "sess",
+          "gen_filter",
+          "pub_filter"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "gen_filter": {
+          "literal": "{type:[]}"
+        },
+        "pub_filter": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_msg_get": {
+    "scope": "device",
+    "fields": [
+      "counts",
+      "end_time",
+      "filter",
+      "flag",
+      "sess",
+      "start",
+      "start_time"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 366133,
+        "fields": [
+          "sess",
+          "flag",
+          "start",
+          "filter",
+          "counts"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 833202,
+        "fields": [
+          "sess",
+          "flag",
+          "start_time",
+          "end_time",
+          "filter",
+          "start",
+          "counts"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 839934,
+        "fields": [
+          "sess",
+          "flag",
+          "start_time",
+          "end_time",
+          "filter",
+          "start",
+          "counts"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 365149,
+        "fields": [
+          "sess",
+          "flag",
+          "start",
+          "filter",
+          "counts"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 807271,
+        "fields": [
+          "sess",
+          "flag",
+          "start_time",
+          "end_time",
+          "filter",
+          "start",
+          "counts"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "flag": {
+          "literal": 0
+        },
+        "start": {
+          "input": true
+        },
+        "filter": {
+          "input": true
+        },
+        "counts": {
+          "input": true
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "flag": {
+          "literal": 0
+        },
+        "start_time": {
+          "input": true
+        },
+        "end_time": {
+          "input": true
+        },
+        "filter": {
+          "literal": "record"
+        },
+        "start": {
+          "input": true
+        },
+        "counts": {
+          "input": true
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "flag": {
+          "input": true
+        },
+        "start_time": {
+          "input": true
+        },
+        "end_time": {
+          "input": true
+        },
+        "filter": {
+          "input": true
+        },
+        "start": {
+          "input": true
+        },
+        "counts": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_net_get": {
+    "scope": "device",
+    "fields": [
+      "force_scan",
+      "items",
+      "select",
+      "sess",
+      "tokens"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 368745,
+        "fields": [
+          "sess",
+          "select",
+          "tokens",
+          "items",
+          "force_scan"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 842717,
+        "fields": [
+          "sess",
+          "tokens",
+          "items",
+          "force_scan"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 847612,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 367543,
+        "fields": [
+          "sess",
+          "select",
+          "tokens",
+          "items",
+          "force_scan"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 816786,
+        "fields": [
+          "sess",
+          "tokens",
+          "items",
+          "force_scan"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "select": {
+          "input": true
+        },
+        "tokens": [
+          {
+            "literal": "eth0"
+          },
+          {
+            "literal": "ra0"
+          }
+        ],
+        "items": [
+          {
+            "literal": "all"
+          },
+          {
+            "literal": "all"
+          }
+        ],
+        "force_scan": {
+          "literal": 1
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "tokens": [
+          {
+            "literal": "eth0"
+          },
+          {
+            "literal": "ra0"
+          }
+        ],
+        "items": [
+          {
+            "input": true
+          },
+          {
+            "input": true
+          }
+        ],
+        "force_scan": {
+          "input": true
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_net_set": {
+    "scope": "device",
+    "fields": [
+      "info",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 369026,
+        "fields": [
+          "sess",
+          "info"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 847810,
+        "fields": [
+          "sess",
+          "info"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 367825,
+        "fields": [
+          "sess",
+          "info"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "info": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_nick_set": {
+    "scope": "device",
+    "fields": [
+      "nick",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 368359,
+        "fields": [
+          "sess",
+          "nick"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 840915,
+        "fields": [
+          "nick"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 367157,
+        "fields": [
+          "sess",
+          "nick"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "nick": {
+          "input": true
+        }
+      },
+      {
+        "nick": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_ntp_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 372020,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 852609,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 370818,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 826678,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_ntp_set": {
+    "scope": "device",
+    "fields": [
+      "auto_sync",
+      "dhcp",
+      "manual",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 372689,
+        "fields": [
+          "sess",
+          "auto_sync",
+          "manual"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 853098,
+        "fields": [
+          "sess",
+          "auto_sync",
+          "dhcp",
+          "manual"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 371487,
+        "fields": [
+          "sess",
+          "auto_sync",
+          "manual"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "auto_sync": {
+          "input": true
+        },
+        "manual": {
+          "ip": {
+            "input": true
+          }
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "auto_sync": {
+          "input": true
+        },
+        "dhcp": {
+          "input": true
+        },
+        "manual": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_osd_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 369155,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 848710,
+        "fields": []
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 367953,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      },
+      {}
+    ]
+  },
+  "ccm_osd_set": {
+    "scope": "device",
+    "fields": [
+      "osd",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 369498,
+        "fields": [
+          "sess",
+          "osd"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 848864,
+        "fields": [
+          "osd"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 368296,
+        "fields": [
+          "sess",
+          "osd"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "osd": {
+          "text": {
+            "input": true
+          },
+          "text_enable": {
+            "input": true
+          },
+          "week": {
+            "input": true
+          },
+          "date": {
+            "format": {
+              "input": true
+            },
+            "date_enable": {
+              "input": true
+            },
+            "enable_12h": {
+              "input": true
+            },
+            "time_enable": {
+              "input": true
+            }
+          }
+        }
+      },
+      {
+        "osd": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_pic_get": {
+    "scope": "device",
+    "fields": [
+      "flag",
+      "sess",
+      "token"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 376856,
+        "fields": [
+          "sess",
+          "token",
+          "flag"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 375654,
+        "fields": [
+          "sess",
+          "token"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "token": {
+          "input": true
+        },
+        "flag": {
+          "input": true
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "token": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_play": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "setup",
+      "token"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 364887,
+        "fields": [
+          "sess",
+          "setup",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 835554,
+        "fields": [
+          "sess",
+          "setup",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 363904,
+        "fields": [
+          "sess",
+          "setup",
+          "token"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "setup": {
+          "stream": {
+            "literal": "RTP_Unicast"
+          },
+          "trans": {
+            "proto": {
+              "input": true
+            }
+          }
+        },
+        "token": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_preset_pos_ctrl": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "cmd",
+      "infos"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "ac130e6f964b814c443911d072b9bf34fcc6d90350fa19b1730ca7801d0825cb",
+        "offset": 5819944,
+        "fields": [
+          "sess",
+          "cmd",
+          "infos"
+        ],
+        "apk_sha256": "20c66d333df411629bb2ed7ce572ddca80bb27bef0dff96f65c29d0b4222d8f8",
+        "class": "com.mining.cloud.mcld_agent",
+        "method": "preset_pos_ctrl"
+      }
+    ],
+    "validation": "android_call_site_only",
+    "request_shapes": []
+  },
+  "ccm_ptz_ctl": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "speed",
+      "token",
+      "trans"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 365768,
+        "fields": [
+          "sess",
+          "trans",
+          "speed"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 837686,
+        "fields": [
+          "sess",
+          "token",
+          "trans",
+          "speed"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 364785,
+        "fields": [
+          "sess",
+          "trans",
+          "speed"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "trans": {
+          "pan_tilt": {
+            "x": {
+              "input": true
+            },
+            "y": {
+              "input": true
+            }
+          }
+        },
+        "speed": {
+          "pan_tilt": {
+            "x": {
+              "literal": 30
+            },
+            "y": {
+              "literal": 30
+            }
+          }
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "token": {
+          "input": true
+        },
+        "trans": {
+          "pan_tilt": {
+            "x": {
+              "input": true
+            },
+            "y": {
+              "input": true
+            },
+            "space": {
+              "input": true
+            }
+          },
+          "_deprecated_zoom": {
+            "x": {
+              "input": true
+            },
+            "space": {
+              "input": true
+            }
+          }
+        },
+        "speed": {
+          "pan_tilt": {
+            "x": {
+              "input": true
+            },
+            "y": {
+              "input": true
+            },
+            "space": {
+              "input": true
+            }
+          },
+          "_deprecated_zoom": {
+            "x": {
+              "input": true
+            },
+            "space": {
+              "input": true
+            }
+          }
+        }
+      }
+    ]
+  },
+  "ccm_pwd_set": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "user"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 368561,
+        "fields": [
+          "sess",
+          "user"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 841191,
+        "fields": [
+          "user"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 841979,
+        "fields": [
+          "user"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 367359,
+        "fields": [
+          "sess",
+          "user"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "user": {
+          "username": {
+            "input": true
+          },
+          "old_pwd": {
+            "input": true
+          },
+          "pwd": {
+            "input": true
+          },
+          "level": {
+            "literal": ""
+          },
+          "guest": {
+            "input": true
+          }
+        }
+      },
+      {
+        "user": [
+          {
+            "username": {
+              "input": true
+            },
+            "old_pwd": {
+              "input": true
+            },
+            "pwd": {
+              "input": true
+            },
+            "level": {
+              "literal": ""
+            }
+          }
+        ]
+      },
+      {
+        "user": [
+          {
+            "username": {
+              "input": true
+            },
+            "old_pwd": {
+              "input": true
+            },
+            "pwd": {
+              "input": true
+            },
+            "level": {
+              "literal": ""
+            },
+            "guest": {
+              "literal": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "ccm_reboot": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 373561,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 849826,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 854779,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 372359,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 823895,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_record_task_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 365088,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 838786,
+        "fields": []
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 364104,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      },
+      {}
+    ]
+  },
+  "ccm_record_task_set": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "task"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 365220,
+        "fields": [
+          "sess",
+          "task"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 371821,
+        "fields": [
+          "sess",
+          "task"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 838478,
+        "fields": [
+          "sess",
+          "task"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 364236,
+        "fields": [
+          "sess",
+          "task"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 370619,
+        "fields": [
+          "sess",
+          "task"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 812547,
+        "fields": [
+          "sess",
+          "task"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "task": {
+          "input": true
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "task": {
+          "sch": {
+            "enable": {
+              "input": true
+            },
+            "full_time": {
+              "input": true
+            },
+            "times": {
+              "input": true
+            }
+          }
+        }
+      }
+    ]
+  },
+  "ccm_replay": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "setup",
+      "token"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 365932,
+        "fields": [
+          "sess",
+          "setup",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 836148,
+        "fields": [
+          "sess",
+          "setup",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 364949,
+        "fields": [
+          "sess",
+          "setup",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 810217,
+        "fields": [
+          "sess",
+          "setup",
+          "token"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "setup": {
+          "stream": {
+            "literal": "RTP_Unicast"
+          },
+          "trans": {
+            "proto": {
+              "input": true
+            }
+          }
+        },
+        "token": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_restore": {
+    "scope": "device",
+    "fields": [
+      "backup",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 373431,
+        "fields": [
+          "sess",
+          "backup"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 855360,
+        "fields": [
+          "sess",
+          "backup"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 372229,
+        "fields": [
+          "sess",
+          "backup"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "backup": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_scene_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 378076,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_scene_set": {
+    "scope": "device",
+    "fields": [
+      "all",
+      "info",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 378801,
+        "fields": [
+          "sess",
+          "all",
+          "info"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "all": {
+          "input": true
+        },
+        "info": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_schedule_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 378964,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_schedule_set": {
+    "scope": "device",
+    "fields": [
+      "sch",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 379108,
+        "fields": [
+          "sess",
+          "sch"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "sch": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_sleep_get": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "ac130e6f964b814c443911d072b9bf34fcc6d90350fa19b1730ca7801d0825cb",
+        "offset": 5811160,
+        "fields": [
+          "sess"
+        ],
+        "apk_sha256": "20c66d333df411629bb2ed7ce572ddca80bb27bef0dff96f65c29d0b4222d8f8",
+        "class": "com.mining.cloud.mcld_agent",
+        "method": "getSleepInfo"
+      }
+    ],
+    "validation": "android_call_site_only",
+    "request_shapes": []
+  },
+  "ccm_sleep_set": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "sleep_enable"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "ac130e6f964b814c443911d072b9bf34fcc6d90350fa19b1730ca7801d0825cb",
+        "offset": 5825676,
+        "fields": [
+          "sess",
+          "sleep_enable"
+        ],
+        "apk_sha256": "20c66d333df411629bb2ed7ce572ddca80bb27bef0dff96f65c29d0b4222d8f8",
+        "class": "com.mining.cloud.mcld_agent",
+        "method": "setSleepInfo"
+      }
+    ],
+    "validation": "android_call_site_only",
+    "request_shapes": []
+  },
+  "ccm_snapshot": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "token"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 365404,
+        "fields": [
+          "sess",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 836908,
+        "fields": [
+          "sess",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 837091,
+        "fields": [
+          "sess",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "526a2bc64138ddfbc2dedc8f313bc54ef963bb85d7e3c094ed88765ce25f322c",
+        "offset": 365479,
+        "fields": [
+          "sess",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 364421,
+        "fields": [
+          "sess",
+          "token"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "token": {
+          "input": true
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "token": {
+          "literal": "p0"
+        }
+      }
+    ]
+  },
+  "ccm_speaker_get": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "token"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 373672,
+        "fields": [
+          "sess",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 856600,
+        "fields": [
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 372470,
+        "fields": [
+          "sess",
+          "token"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "token": {
+          "literal": "ao0"
+        }
+      },
+      {
+        "token": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_speaker_set": {
+    "scope": "device",
+    "fields": [
+      "conf",
+      "force_persistence",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 373954,
+        "fields": [
+          "sess",
+          "conf",
+          "force_persistence"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 858010,
+        "fields": [
+          "sess",
+          "conf",
+          "force_persistence"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 372752,
+        "fields": [
+          "sess",
+          "conf",
+          "force_persistence"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "conf": {
+          "token": {
+            "literal": "ao0"
+          },
+          "level": {
+            "input": true
+          }
+        },
+        "force_persistence": {
+          "literal": 1
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "conf": {
+          "input": true
+        },
+        "force_persistence": {
+          "literal": 1
+        }
+      }
+    ]
+  },
+  "ccm_speakers_get": {
+    "scope": "device",
+    "fields": [],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 856486,
+        "fields": []
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {}
+    ]
+  },
+  "ccm_subscribe": {
+    "scope": "device",
+    "fields": [
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 359558,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 820617,
+        "fields": [
+          "sess"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 358814,
+        "fields": [
+          "sess"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          }
+        }
+      }
+    ]
+  },
+  "ccm_talk": {
+    "scope": "device",
+    "fields": [
+      "sess",
+      "setup",
+      "slient",
+      "token"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 365566,
+        "fields": [
+          "sess",
+          "setup",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 833989,
+        "fields": [
+          "sess",
+          "setup",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 364582,
+        "fields": [
+          "sess",
+          "setup",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 808058,
+        "fields": [
+          "sess",
+          "setup",
+          "token"
+        ]
+      },
+      {
+        "source_sha256": "ac130e6f964b814c443911d072b9bf34fcc6d90350fa19b1730ca7801d0825cb",
+        "offset": 5821220,
+        "fields": [
+          "sess",
+          "setup",
+          "slient"
+        ],
+        "class": "com.mining.cloud.mcld_agent",
+        "method": "pushtalk"
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "setup": {
+          "stream": {
+            "literal": "RTP_Unicast"
+          },
+          "trans": {
+            "proto": {
+              "input": true
+            }
+          }
+        },
+        "token": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_upgrade": {
+    "scope": "device",
+    "fields": [
+      "img_src",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 373309,
+        "fields": [
+          "sess",
+          "img_src"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 855869,
+        "fields": [
+          "sess",
+          "img_src"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 372107,
+        "fields": [
+          "sess",
+          "img_src"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "img_src": {
+          "literal": "download"
+        }
+      },
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "img_src": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_upgrade_get": {
+    "scope": "device",
+    "fields": [
+      "check",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 372875,
+        "fields": [
+          "sess",
+          "check"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 854192,
+        "fields": [
+          "sess",
+          "check"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 371673,
+        "fields": [
+          "sess",
+          "check"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "check": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "ccm_video_srcs_get": {
+    "scope": "device",
+    "fields": [],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 829058,
+        "fields": []
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {}
+    ]
+  },
+  "ccm_zone_get": {
+    "scope": "device",
+    "fields": [
+      "dev_sn",
+      "sess"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 377232,
+        "fields": [
+          "sess",
+          "dev_sn"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "sess": {
+          "nid": {
+            "input": true
+          },
+          "sn": {
+            "input": true
+          }
+        },
+        "dev_sn": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "mmq_create": {
+    "scope": "device",
+    "fields": [
+      "timeout"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 359472,
+        "fields": [
+          "timeout"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "timeout": {
+          "literal": 30000
+        }
+      }
+    ]
+  },
+  "mmq_destroy": {
+    "scope": "device",
+    "fields": [
+      "qid"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 360397,
+        "fields": [
+          "qid"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 825910,
+        "fields": [
+          "qid"
+        ]
+      },
+      {
+        "source_sha256": "526a2bc64138ddfbc2dedc8f313bc54ef963bb85d7e3c094ed88765ce25f322c",
+        "offset": 360472,
+        "fields": [
+          "qid"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 359652,
+        "fields": [
+          "qid"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "qid": {
+          "input": true
+        }
+      }
+    ]
+  },
+  "mmq_pick": {
+    "scope": "device",
+    "fields": [
+      "qid",
+      "timeout"
+    ],
+    "evidence": [
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 359242,
+        "fields": [
+          "qid",
+          "timeout"
+        ]
+      },
+      {
+        "source_sha256": "02224ab249cc3f369e50948cb4bd80e676ad7cbe03a54fcb5f9720c92142f3e2",
+        "offset": 820918,
+        "fields": [
+          "qid",
+          "timeout"
+        ]
+      },
+      {
+        "source_sha256": "bb86ef6fdeeabfa6a0c21dd01828f96a4f8abefc41e33b18e0628a9a6cf34e11",
+        "offset": 358498,
+        "fields": [
+          "qid",
+          "timeout"
+        ]
+      }
+    ],
+    "validation": "client_call_site_only",
+    "request_shapes": [
+      {
+        "qid": {
+          "input": true
+        },
+        "timeout": {
+          "literal": 300000
+        }
+      }
+    ]
+  }
+}
